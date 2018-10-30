@@ -17,3 +17,5 @@ app.use(bodyParser.urlencoded({extended : false}));
 app.use(express.static(__root + '/public'));
 app.set('view engine','ejs');
 app.set('views', __root + '/views');
+
+console.log('haha');
